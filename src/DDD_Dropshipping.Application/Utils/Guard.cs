@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DDD_Dropshipping.infrastructure
+namespace DDD_Dropshipping.Application.Utils
 {
     public static class Guard
     {
