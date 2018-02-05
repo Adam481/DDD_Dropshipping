@@ -1,0 +1,23 @@
+﻿{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/test/Get",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 52002
+        }
+      ],
+      "UpstreamPathTemplate": "/api/ordering/test/Get",
+      "UpstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 52001
+        }
+      ],
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
+    }
+  ],
+  "GlobalConfiguration": {}
+}
