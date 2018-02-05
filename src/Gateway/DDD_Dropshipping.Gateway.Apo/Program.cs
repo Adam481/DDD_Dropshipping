@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace DDD_Dropshipping.UI.Web
+namespace DDD_Dropshipping.Gateway.Apo
 {
     public class Program
     {
