@@ -1,7 +1,7 @@
 ﻿{
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/test/Get",
+      "DownstreamPathTemplate": "/api/{everything}",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,7 +9,7 @@
           "Port": 52002
         }
       ],
-      "UpstreamPathTemplate": "/api/ordering/test/Get",
+      "UpstreamPathTemplate": "/api/ordering/{everything}",
       "UpstreamHostAndPorts": [
         {
           "Host": "localhost",

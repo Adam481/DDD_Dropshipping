@@ -4,8 +4,17 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\amaliszewski\Desktop\DDD_Dropshipping\DDD_Dropshipping\src\Ordering\DDD_Dropshipping.Ordering.Api\bin\Debug\netcoreapp2.0\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
-    <Folder Include="Services\" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="MediatR" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD_Dropshipping.Ordering.Domain\DDD_Dropshipping.Ordering.Domain.csproj" />
   </ItemGroup>
 
 </Project>

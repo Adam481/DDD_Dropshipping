@@ -4,4 +4,13 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\amaliszewski\Desktop\DDD_Dropshipping\DDD_Dropshipping\src\Ordering\DDD_Dropshipping.Ordering.Api\bin\Debug\netcoreapp2.0\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DDD_Dropshipping.Ordering.Application\DDD_Dropshipping.Ordering.Application.csproj" />
+    <ProjectReference Include="..\DDD_Dropshipping.Ordering.Domain\DDD_Dropshipping.Ordering.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
