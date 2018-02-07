@@ -8,4 +8,8 @@
     <OutputPath>C:\Users\amaliszewski\Desktop\DDD_Dropshipping\DDD_Dropshipping\src\Ordering\DDD_Dropshipping.Ordering.Api\bin\Debug\netcoreapp2.0\</OutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="OrderAggregate\OrderAddress.cs" />
+  </ItemGroup>
+
 </Project>

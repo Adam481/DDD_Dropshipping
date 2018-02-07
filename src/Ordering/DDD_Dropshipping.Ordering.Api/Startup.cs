@@ -20,7 +20,13 @@ namespace DDD_Dropshipping.Ordering.Api
             services.AddMvc();
             services.AddSwaggerGen(swagger =>
             {
-                swagger.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "My First Swagger" });
+                swagger.DescribeAllEnumsAsStrings();
+                swagger.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info()
+                {
+                    Title = "DDD_Dropshipping - Ordering Api",
+                    Version = "v2",
+                    Description = "DDD_Dropshipping - Ordering microservice HTTP API"
+                });
             });
 
             IContainer container = BuildContainer(services);
@@ -45,7 +51,9 @@ namespace DDD_Dropshipping.Ordering.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My First Swagger");
+                c.SwaggerEndpoint(
+                    "/swagger/v1/swagger.json", 
+                    "Ordering API v1 swagger endpoint");
             });
             
             app.UseMvc();

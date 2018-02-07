@@ -15,8 +15,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DDD_Dropshipping.Ordering.Application\DDD_Dropshipping.Ordering.Application.csproj" />
-  </ItemGroup>
-
 </Project>

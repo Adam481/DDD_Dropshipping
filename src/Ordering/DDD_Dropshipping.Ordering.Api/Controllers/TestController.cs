@@ -1,11 +1,10 @@
-﻿using DDD_Dropshipping.Ordering.Application;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Threading.Tasks;
 
 namespace DDD_Dropshipping.Ordering.Api.Controllers
 {
+    //TODO: api versioning
     [Route("api/test")]
     [Produces("application/json")]
     public class TestController : Controller
