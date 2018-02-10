@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
 {
-    class OrderState
+    public class OrderState // TODO: represent as enumeration object
     {
     }
 }

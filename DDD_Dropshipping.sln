@@ -14,33 +14,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shipping", "Shipping", "{8D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stockpiling", "Stockpiling", "{5AF3FA90-E80F-4C97-AC23-3384DCCD14FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Ordering.Api", "src\Ordering\DDD_Dropshipping.Ordering.Api\DDD_Dropshipping.Ordering.Api.csproj", "{237C6452-52DB-4893-A656-903DDC3C2718}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Ordering.Api", "src\Ordering\DDD_Dropshipping.Ordering.Api\DDD_Dropshipping.Ordering.Api.csproj", "{237C6452-52DB-4893-A656-903DDC3C2718}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Shipping.Api", "src\Shipping\DDD_Dropshipping.Shipping.Api\DDD_Dropshipping.Shipping.Api.csproj", "{6F7AB417-D775-41ED-99F8-7B3E076F1B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Shipping.Api", "src\Shipping\DDD_Dropshipping.Shipping.Api\DDD_Dropshipping.Shipping.Api.csproj", "{6F7AB417-D775-41ED-99F8-7B3E076F1B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Stockpiling.Api", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Api\DDD_Dropshipping.Stockpiling.Api.csproj", "{1649836D-05FA-44DE-8FF8-B363AA4376DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Stockpiling.Api", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Api\DDD_Dropshipping.Stockpiling.Api.csproj", "{1649836D-05FA-44DE-8FF8-B363AA4376DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Ordering.Domain", "src\Ordering\DDD_Dropshipping.Ordering.Domain\DDD_Dropshipping.Ordering.Domain.csproj", "{79ADC48C-D3A6-4ECA-8825-A8E603D66D07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Ordering.Domain", "src\Ordering\DDD_Dropshipping.Ordering.Domain\DDD_Dropshipping.Ordering.Domain.csproj", "{79ADC48C-D3A6-4ECA-8825-A8E603D66D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Shipping.Domain", "src\Shipping\DDD_Dropshipping.Shipping.Domain\DDD_Dropshipping.Shipping.Domain.csproj", "{05C268AE-C450-499B-A17B-998BFFE051C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Shipping.Domain", "src\Shipping\DDD_Dropshipping.Shipping.Domain\DDD_Dropshipping.Shipping.Domain.csproj", "{05C268AE-C450-499B-A17B-998BFFE051C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Stockpiling.Domain", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Domain\DDD_Dropshipping.Stockpiling.Domain.csproj", "{26BA0B55-5963-400E-BB81-7C4B8D087696}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Stockpiling.Domain", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Domain\DDD_Dropshipping.Stockpiling.Domain.csproj", "{26BA0B55-5963-400E-BB81-7C4B8D087696}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Ordering.Application", "src\Ordering\DDD_Dropshipping.Ordering.Application\DDD_Dropshipping.Ordering.Application.csproj", "{0477C9E7-F062-40AE-BABE-DDEE8143587F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Ordering.Application", "src\Ordering\DDD_Dropshipping.Ordering.Application\DDD_Dropshipping.Ordering.Application.csproj", "{0477C9E7-F062-40AE-BABE-DDEE8143587F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Ordering.Infrastructure", "src\Ordering\DDD_Dropshipping.Ordering.Infrastructure\DDD_Dropshipping.Ordering.Infrastructure.csproj", "{97C371E7-F68D-48D3-AC86-56139EB40215}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Ordering.Infrastructure", "src\Ordering\DDD_Dropshipping.Ordering.Infrastructure\DDD_Dropshipping.Ordering.Infrastructure.csproj", "{97C371E7-F68D-48D3-AC86-56139EB40215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Shipping.Application", "src\Shipping\DDD_Dropshipping.Shipping.Application\DDD_Dropshipping.Shipping.Application.csproj", "{79B49E6F-B854-435B-9595-759EC38CF73A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Shipping.Application", "src\Shipping\DDD_Dropshipping.Shipping.Application\DDD_Dropshipping.Shipping.Application.csproj", "{79B49E6F-B854-435B-9595-759EC38CF73A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Shipping.Infrastructure", "src\Shipping\DDD_Dropshipping.Shipping.Infrastructure\DDD_Dropshipping.Shipping.Infrastructure.csproj", "{95162B25-D19F-43EF-977A-8E0C5D7CFDE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Shipping.Infrastructure", "src\Shipping\DDD_Dropshipping.Shipping.Infrastructure\DDD_Dropshipping.Shipping.Infrastructure.csproj", "{95162B25-D19F-43EF-977A-8E0C5D7CFDE3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Stockpiling.Infrastructure", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Infrastructure\DDD_Dropshipping.Stockpiling.Infrastructure.csproj", "{1FB91921-6439-4583-AF52-1C874251EA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Stockpiling.Infrastructure", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Infrastructure\DDD_Dropshipping.Stockpiling.Infrastructure.csproj", "{1FB91921-6439-4583-AF52-1C874251EA3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Stockpiling.Application", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Application\DDD_Dropshipping.Stockpiling.Application.csproj", "{05D7B2FA-D006-465C-AB46-F5F9E80516E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Stockpiling.Application", "src\Stockpiling\DDD_Dropshipping.Stockpiling.Application\DDD_Dropshipping.Stockpiling.Application.csproj", "{05D7B2FA-D006-465C-AB46-F5F9E80516E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{1039CC68-6E93-46C4-818E-286531E879E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Gateway.Api", "src\Gateway\DDD_Dropshipping.Gateway.Api\DDD_Dropshipping.Gateway.Api.csproj", "{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD_Dropshipping.Gateway.Api", "src\Gateway\DDD_Dropshipping.Gateway.Api\DDD_Dropshipping.Gateway.Api.csproj", "{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD_Dropshipping.Ordering.Infrastructure.Data.EF", "src\Ordering\DDD_Dropshipping.Ordering.Infrastructure.Data.EF\DDD_Dropshipping.Ordering.Infrastructure.Data.EF.csproj", "{91AE52CE-69A8-42C8-B527-2A324A5239D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +102,10 @@ Global
 		{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AE52CE-69A8-42C8-B527-2A324A5239D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AE52CE-69A8-42C8-B527-2A324A5239D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AE52CE-69A8-42C8-B527-2A324A5239D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AE52CE-69A8-42C8-B527-2A324A5239D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{1FB91921-6439-4583-AF52-1C874251EA3F} = {5AF3FA90-E80F-4C97-AC23-3384DCCD14FC}
 		{05D7B2FA-D006-465C-AB46-F5F9E80516E0} = {5AF3FA90-E80F-4C97-AC23-3384DCCD14FC}
 		{A8964478-355D-4C0E-BCD3-E8CF7BCB35C9} = {1039CC68-6E93-46C4-818E-286531E879E8}
+		{91AE52CE-69A8-42C8-B527-2A324A5239D1} = {89961805-2A23-4947-AC6F-FB3F3E7F515E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94C40778-A929-486F-ADAE-28CE3681D7FF}

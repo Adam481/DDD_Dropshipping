@@ -55,7 +55,7 @@ namespace DDD_Dropshipping.Ordering.Api
                     "/swagger/v1/swagger.json", 
                     "Ordering API v1 swagger endpoint");
             });
-            
+
             app.UseMvc();
         }
 
@@ -78,7 +78,7 @@ namespace DDD_Dropshipping.Ordering.Api
             builder
               .Register<SingleInstanceFactory>(ctx => {
                   var c = ctx.Resolve<IComponentContext>();
-                  return t => { object o; return c.TryResolve(t, out o) ? o : null; };
+                  return t => c.TryResolve(t, out object o) ? o : null;
               })
               .InstancePerLifetimeScope();
 
@@ -96,6 +96,7 @@ namespace DDD_Dropshipping.Ordering.Api
             // Register autofac modules
             builder.RegisterAssemblyModules(assemblies);
 
+            // Register dotnet core services 
             builder.Populate(services);
 
             return builder.Build();

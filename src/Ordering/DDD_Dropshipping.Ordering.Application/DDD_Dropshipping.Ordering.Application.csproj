@@ -14,14 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DDD_Dropshipping.Ordering.Api\DDD_Dropshipping.Ordering.Api.csproj" />
     <ProjectReference Include="..\DDD_Dropshipping.Ordering.Domain\DDD_Dropshipping.Ordering.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
     <Folder Include="IntegrationEvents\" />
-    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>

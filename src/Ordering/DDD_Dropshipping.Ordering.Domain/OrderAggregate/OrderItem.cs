@@ -4,7 +4,8 @@ using System.Text;
 
 namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
 {
-    class OrderItem
+    public class OrderItem // reprezent as value object
     {
+
     }
 }
