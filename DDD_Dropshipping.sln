@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94B523BC-BF14-48CE-B0D3-1CEEEB0B6CEF}"
 	ProjectSection(SolutionItems) = preProject
+		DBScirpt.sql = DBScirpt.sql
 		README.md = README.md
 	EndProjectSection
 EndProject

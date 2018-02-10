@@ -1,8 +1,9 @@
-﻿using DDD_Dropshipping.Ordering.Domain.SeedWork;
+﻿using System.Collections.Generic;
+using DDD_Dropshipping.Ordering.Domain.SeedWork;
 
 namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
 {
-    public class Address : ValueObject
+    public class Address : ValueObject<Address>
     {
         public string Country { get; private set; }
         public string City { get; private set; }
@@ -30,5 +31,14 @@ namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
         }
 
 
+        protected override IEnumerable<object> GetAtomicValues()
+        {
+            yield return Country;
+            yield return City;
+            yield return PostalCode;
+            yield return Street;
+            yield return StreetNumber;
+            yield return ApartmentNumber;
+        }
     }
 }

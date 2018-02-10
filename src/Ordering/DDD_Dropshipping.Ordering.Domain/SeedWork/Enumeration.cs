@@ -1,5 +1,5 @@
-﻿
-using System;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
@@ -9,9 +9,9 @@ namespace DDD_Dropshipping.Ordering.Domain.SeedWork
     // based on Jimmy Bogards Enumeration class and github example: https://gist.github.com/spewu/5933739
     [Serializable]
     [DebuggerDisplay("{DisplayName} - {Value}")]
-    public abstract class Enumeration<TEnumeration, TValue> : IComparable<TEnumeration>, IEquatable<TEnumeration>
-    where TEnumeration : Enumeration<TEnumeration, TValue>
-    where TValue : IComparable
+    public abstract class Enumeration<TEnumeration, TValue> : ValueObject<Enumeration<TEnumeration, TValue>>, IComparable<TEnumeration>
+        where TEnumeration : Enumeration<TEnumeration, TValue>
+        where TValue : IComparable
     {
         private static readonly TEnumeration[] Enumerations = GetEnumerations();
 
@@ -27,35 +27,19 @@ namespace DDD_Dropshipping.Ordering.Domain.SeedWork
 
 
         public TValue Value
-        {
-            get { return _value; }
-        }
+            => _value;
 
 
         public string DisplayName
-        {
-            get { return _displayName; }
-        }
+            => _displayName;
 
 
         public override sealed string ToString()
             => DisplayName;
 
-
+        
         public int CompareTo(TEnumeration other)
             => Value.CompareTo(other.Value);
-
-
-        public override bool Equals(object obj) 
-            => Equals(obj as TEnumeration);
-
-
-        public bool Equals(TEnumeration other)
-            => other != null && Value.Equals(other.Value);
-
-
-        public override int GetHashCode()
-            => Value.GetHashCode();
 
 
         public static TEnumeration FromValue(TValue value)
@@ -76,7 +60,13 @@ namespace DDD_Dropshipping.Ordering.Domain.SeedWork
 
         public static TEnumeration[] GetAll()
             => Enumerations;
+
         
+        protected override IEnumerable<object> GetAtomicValues()
+        {
+            yield return Value;
+        }
+
 
         private static TEnumeration[] GetEnumerations()
         {

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DDD_Dropshipping.Ordering.Domain.OrderAggregate;
 
 namespace DDD_Dropshipping.Ordering.Infrastructure.Data.EF.Order
 {
-    internal class OrderRepository
+    internal class OrderRepository : IOrderRepository
     {
     }
 }

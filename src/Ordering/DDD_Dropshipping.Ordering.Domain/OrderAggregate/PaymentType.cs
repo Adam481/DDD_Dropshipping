@@ -1,4 +1,5 @@
-﻿using DDD_Dropshipping.Ordering.Domain.SeedWork;
+﻿using System.Collections.Generic;
+using DDD_Dropshipping.Ordering.Domain.SeedWork;
 
 namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
 {
@@ -7,11 +8,12 @@ namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
         protected PaymentType(int value, string displayName)
             : base(value, displayName) { }
 
-
+        
         private class Cache : PaymentType
         {
             protected Cache() : base(0, "Cache")
             { }
+            
         }
 
 
@@ -34,6 +36,5 @@ namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
             protected Paypal() : base(3, "Paypal")
             { }
         }
-
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DDD_Dropshipping.Ordering.Domain.CustomerAggregate
 {
-    interface ICustomerRepository
+    public interface ICustomerRepository
     {
     }
 }

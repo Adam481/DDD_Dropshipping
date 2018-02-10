@@ -1,4 +1,5 @@
 ﻿using DDD_Dropshipping.Ordering.Domain.SeedWork;
+using System.Collections.Generic;
 
 namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
 {
