@@ -12,6 +12,6 @@ namespace DDD_Dropshipping.Ordering.Domain.OrderAggregate
         public Address ShippingAddress { get; private set; }
         public Money TotalValue { get; private set; }
         public OrderState State { get; private set; }
-        public ICollection Items { get; private set; }
+        public PaymentType PeymentMethod { get; private set; }
     }
 }
